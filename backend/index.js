@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 const corsOptions = {
-    origin:'*',
+    origin:'https://placement-portal-saksham.vercel.app',
     credentials:true
 }
 
